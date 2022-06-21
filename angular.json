@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "02-giftApp": {
+    "02-gifApp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "02-giftApp:build:production"
+              "browserTarget": "02-gifApp:build:production"
             },
             "development": {
-              "browserTarget": "02-giftApp:build:development"
+              "browserTarget": "02-gifApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "02-giftApp:build"
+            "browserTarget": "02-gifApp:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "02-giftApp"
+  "defaultProject": "02-gifApp"
 }
